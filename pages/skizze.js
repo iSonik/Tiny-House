@@ -1,4 +1,4 @@
-import Image from 'next/Image'
+import Image from 'next/image'
 import HausSkizze from '../public/bilder/haus2.png'
 import HausSkizze1 from '../public/bilder/haus1.png'
 
