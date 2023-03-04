@@ -6,10 +6,10 @@ export default function Skizze() {
   return (
     <div>
       <div className="skizzeBild">
-        <Image src={HausSkizze} alt="Card example image"></Image>
+        <img src={HausSkizze} alt="Card example image"></img>
       </div>
       <div className="skizzeBild1">
-        <Image src={HausSkizze1} alt="Card example image"></Image>
+        <img src={HausSkizze1} alt="Card example image"></img>
       </div>
       <p className="hollow">...<br></br>...<br></br>...<br></br>...</p>
     </div>
