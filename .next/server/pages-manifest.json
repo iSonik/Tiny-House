@@ -1,13 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/bilder": "pages/bilder.html",
-  "/dieArbeit": "pages/dieArbeit.html",
-  "/": "pages/index.html",
-  "/inspiration": "pages/inspiration.html",
-  "/harteArbeit": "pages/harteArbeit.html",
-  "/skizze": "pages/skizze.html",
-  "/produkte/[url]": "pages/produkte/[url].html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/skizze": "pages/skizze.js"
 }
