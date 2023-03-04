@@ -31,7 +31,7 @@ body {
 }
 
 
-.h1 {
+h1 {
   backdrop-filter: brightness(80%);
   border-radius: 30px;
 }
