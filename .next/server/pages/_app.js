@@ -30,7 +30,6 @@ var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./komponenten/Navigation.js
 
 
@@ -97,19 +96,9 @@ function Fusszeile() {
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
             className: "d-flex justify-content-center fixed-bottom text-secondary bg-white",
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h6", {
+            children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                 className: "footer",
-                children: [
-                    " ✉️ email@gmail.com | ",
-                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                        href: "http://google.com",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: "/../public/bilder/instagram.png",
-                            width: 20,
-                            height: 20
-                        })
-                    })
-                ]
+                children: " ✉️ email@gmail.com |"
             })
         })
     });
