@@ -1,0 +1,151 @@
+html,
+
+body {
+    background: white;  
+    background-image: url("../public/bilder/cardBilder/hausCover2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%; 
+    
+}
+
+.h5 {
+  color:black !important; 
+}
+
+.coverText {
+  backdrop-filter: sepia(80%);
+  border-radius: 30px;
+
+}
+
+
+.kontaktText {
+  text-align: center;
+  backdrop-filter: brightness(50%);
+  border-radius: 30px;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.h1 {
+  backdrop-filter: brightness(80%);
+  border-radius: 30px;
+}
+
+.hr {
+  backdrop-filter: brightness(80%);
+  
+}
+
+.bild1 {
+    margin: auto;
+}
+
+.headerDiv {
+  display: flex; 
+	justify-content:space-between;
+  background-color: white;
+  opacity: 0.9;
+  margin:auto;
+  
+}
+
+.skizzeBild {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+.skizzeBild1 {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding-top: 40px;
+    width: 50%;
+}
+
+.linkDiv {
+  display: flex;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  
+}
+
+.logo2 {
+  background-color: white;
+  opacity: 0.9;
+  
+}
+
+.logo1 {
+  background-color: white;
+  opacity: 0.9;
+  
+}
+
+.urlBild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.HausCover {
+  width:700px;
+  text-align: center;
+  justify-items: right;
+  
+}
+
+.link {
+  padding:20px;
+  text-align: center;
+}
+
+:hover.link {
+  color: grey;
+}
+
+.bilderDiv {
+  margin-top: -20px;
+}
+
+.bildDecoration {
+  text-align: center; 
+  display:block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.hollow {
+  color: transparent;
+}
+
+.footer {
+  padding-top: 7px;
+  margin-bottom: 5px;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+.footer {
+  background-color: red;
+}
+
+.link {
+padding: 0;
+}
+
+
+}
