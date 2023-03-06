@@ -15,6 +15,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -25,15 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/bilder": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/bilder.js"
+    ],
     "/harteArbeit": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/harteArbeit.js"
     ],
-    "/skizze": [
+    "/inspiration": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/skizze.js"
+      "static/chunks/pages/inspiration.js"
     ]
   },
   "ampFirstPages": []
