@@ -1,4 +1,3 @@
-// import Head from 'next/Head'
 import Navigation from '../komponenten/Navigation'
 import Fusszeile from '../komponenten/Fusszeile'
 

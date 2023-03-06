@@ -15,8 +15,11 @@ body {
 }
 
 .coverText {
-  backdrop-filter: sepia(80%);
+  backdrop-filter: brightness(60%);
   border-radius: 30px;
+  display: flex;
+  overflow: hidden;
+  
 
 }
 
@@ -57,25 +60,13 @@ h1 {
 .skizzeBild {
 aspect-ratio: 16/9;
 }
+
 .skizzeBildContainer {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-margin-bottom: 1rem;
+  margin-bottom: 1rem;
 
-}
-
-.skizzeBild1 {
-
-    /* text-align: center;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin:auto;
-    padding-top: 40px;
-    max-height: 25vh;
-    max-width: 20vw; */
-    
 }
 
 .linkDiv {
@@ -105,9 +96,11 @@ margin-bottom: 1rem;
 }
 
 .HausCover {
-  width:700px;
+
+  display: block;
   text-align: center;
-  justify-items: right;
+  margin-left: 10rem;
+  margin-right: 10rem;
   
 }
 
@@ -122,6 +115,7 @@ margin-bottom: 1rem;
 
 .bilderDiv {
   margin-top: -20px;
+  
 }
 
 .bildDecoration {
@@ -139,13 +133,27 @@ margin-bottom: 1rem;
 .footer {
   padding-top: 7px;
   margin-bottom: 5px;
+  font-family: arial;
   
 }
 
 
 @media only screen and (max-width: 600px) {
-.footer {
-  background-color: red;
+
+
+.HausCover {
+  display: block;
+  text-align: center;
+  margin-left: 0rem;
+  width: 24rem;
+}
+
+.coverText {
+  backdrop-filter: brightness(60%);
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  
 }
 
 .link {

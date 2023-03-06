@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from 'next/Image'
 
 
 export default function Navigation() {
@@ -8,7 +8,6 @@ export default function Navigation() {
   
     
     <div className=" sticky-top d-flex justify-content-center" style={{paddingTop: "20px"}}>
-
     
     <div className="linkDiv">
     

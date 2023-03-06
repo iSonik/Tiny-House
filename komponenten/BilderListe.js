@@ -7,7 +7,7 @@ export default function BilderListe() {
   
   return (
     <div className='bilderDiv'>
-        <div className="row row-cols-5 mt-5">
+        <div  className="row row-cols-3 mt-5">
             {jsondb.pictures.map((picture) => (
                 <div className="mt-1 col" >
                   
