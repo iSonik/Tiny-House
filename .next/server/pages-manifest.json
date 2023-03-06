@@ -1,13 +1,13 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/bilder": "pages/bilder.html",
   "/dieArbeit": "pages/dieArbeit.html",
   "/harteArbeit": "pages/harteArbeit.html",
-  "/": "pages/index.html",
   "/inspiration": "pages/inspiration.html",
-  "/skizze": "pages/skizze.html",
   "/produkte/[url]": "pages/produkte/[url].html",
+  "/bilder": "pages/bilder.html",
+  "/skizze": "pages/skizze.html",
+  "/": "pages/index.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
