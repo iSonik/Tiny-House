@@ -9,14 +9,13 @@ export default function skizze() {
     <div>
       <div className="skizzeBildContainer">
    
-   <div className="skizzeBild">
-   <Image  src={HausSkizze} layout="cover" alt="Card example image"></Image>
+        <div className="skizzeBild">
+          <Image  src={HausSkizze} layout="cover" alt="Card example image"></Image>
+        </div>
 
-   </div>
-   <div className="skizzeBild">
-   <Image src={HausSkizze1}   layout="cover" alt="Card example image"></Image>
-
-   </div>
+        <div className="skizzeBild">
+          <Image src={HausSkizze1}   layout="cover" alt="Card example image"></Image>
+        </div>
 
       </div>
       <p className="hollow">...<br></br>...<br></br>...<br></br>...</p>
