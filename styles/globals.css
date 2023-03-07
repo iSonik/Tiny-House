@@ -7,7 +7,6 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: 100%; 
-    
 }
 
 .h5 {
@@ -19,8 +18,6 @@ body {
   border-radius: 30px;
   display: flex;
   overflow: hidden;
-  
-
 }
 
 
@@ -54,7 +51,6 @@ h1 {
   background-color: white;
   opacity: 0.9;
   margin:auto;
-  
 }
 
 .skizzeBild {
@@ -101,12 +97,10 @@ padding-left: 8rem;
 }
 
 .HausCover {
-
   display: block;
   text-align: center;
   margin-left: 10rem;
   margin-right: 10rem;
-  
 }
 
 .link {
@@ -118,9 +112,24 @@ padding-left: 8rem;
   color: grey;
 }
 
+/* row-cols-3 p-5 
+className="mt-1 col" */
+
 .bilderDiv {
-  margin-top: -20px;
-  
+  display:block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 900px;
+  text-align: center;
+}
+
+.einzelBild {
+display:block;
+margin-bottom: 20px;
+margin-left: 0.3rem;
+float: left;
 }
 
 .bildDecoration {
@@ -144,6 +153,19 @@ padding-left: 8rem;
 
 
 @media only screen and (max-width: 600px) {
+
+  .bilderDiv {
+    display:block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 900px;
+  }
+  
+  .einzelBild {
+    margin-bottom: 20px;
+  }
 
 
 .HausCover {

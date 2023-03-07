@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/bilder": "pages/bilder.js",
-  "/harteArbeit": "pages/harteArbeit.js",
-  "/inspiration": "pages/inspiration.js",
-  "/": "pages/index.js"
+  "/harteArbeit": "pages/harteArbeit.js"
 }
