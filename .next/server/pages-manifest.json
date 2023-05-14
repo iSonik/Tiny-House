@@ -1,8 +1,18 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/dach": "pages/dach.html",
+  "/datenschutz": "pages/datenschutz.html",
+  "/harteArbeit": "pages/harteArbeit.html",
+  "/impressum": "pages/impressum.html",
+  "/inside": "pages/inside.html",
+  "/": "pages/index.html",
+  "/liste/[url]": "pages/liste/[url].html",
+  "/liste2/[dach]": "pages/liste2/[dach].html",
+  "/liste3/[inside]": "pages/liste3/[inside].html",
+  "/material": "pages/material.html",
+  "/skizze": "pages/skizze.html",
+  "/unterboden": "pages/unterboden.html",
   "/_document": "pages/_document.js",
-  "/impressum": "pages/impressum.js",
-  "/datenschutz": "pages/datenschutz.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
