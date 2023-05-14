@@ -1,5 +1,5 @@
-import Navigation from '../komponenten/Navigation'
-import Fusszeile from '../komponenten/Fusszeile'
+import Navigation from './Navigation'
+import Fusszeile from './Fusszeile'
 
 
 export default function Layout({children}) {
