@@ -1,5 +1,5 @@
 import {useRouter} from 'next/router'
-import jsondb from '../../jsondb/pictures'
+import jsonUnterboden from '../../jsondb/pictures'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -7,7 +7,7 @@ export default function bilderListe() {
 
     const router = useRouter()
     const {url} = router.query
-    const picture = jsondb.pictures.find((a) => a.url === url)
+    const picture = jsonUnterboden.pictures.find((a) => a.url === url)
 
     if(picture) {
 

@@ -9,7 +9,7 @@ exports.modules = {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-const jsondb = {
+const jsonUnterboden = {
     pictures: [
         {
             id: 0,
@@ -84,7 +84,7 @@ const jsondb = {
         }
     ]
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (jsondb);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (jsonUnterboden);
 
 
 /***/ })

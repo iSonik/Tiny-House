@@ -5,7 +5,7 @@ export default function Fusszeile() {
     return (
       <div >
         <div className="fixed-bottom text-secondary bg-black" style={{display: "flex", justifyContent:"right", opacity:0.8}}>
-          <div className="footerButtons" style={{marginBottom: "-20px"}}>
+          <div className="footerButtons" style={{marginBottom: "-5px"}}>
           <Link href="/datenschutz" className=" paper-btn btn-small text-decoration-none" style={{backgroundColor:"transparent", color:"white"}} >
             Datenschutz
           </Link>

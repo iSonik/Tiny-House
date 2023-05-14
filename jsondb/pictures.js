@@ -1,4 +1,4 @@
-const jsondb = {
+const jsonUnterboden = {
     pictures: [
         {
             id: 0,
@@ -79,4 +79,4 @@ const jsondb = {
 }
 
 
-export default jsondb;
+export default jsonUnterboden;

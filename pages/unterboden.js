@@ -1,12 +1,12 @@
 import Link from "next/link"
-import jsondb from '../jsondb/pictures'
+import jsonUnterboden from '../jsondb/pictures'
 import Image from 'next/image'
 
 export default function unterboden() {
   return (
     
        <div className="bilderMap">
-        {jsondb.pictures.map((picture) => (
+        {jsonUnterboden.pictures.map((picture) => (
                 <div key={picture.id} className="einzelBild">
                     <Link href={`/liste/${picture.url}`} passHref>
                         <Image variant="top" src={picture.bild} width={260} height={200} alt="Skizze" className="border border-white"/>

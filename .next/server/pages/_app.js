@@ -108,7 +108,7 @@ function Fusszeile() {
             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "footerButtons",
                 style: {
-                    marginBottom: "-20px"
+                    marginBottom: "-5px"
                 },
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
