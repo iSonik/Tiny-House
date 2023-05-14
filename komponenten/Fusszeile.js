@@ -1,13 +1,19 @@
+import Link from "next/link"
 
 
 export default function Fusszeile() {
     return (
       <div >
-      <div className="d-flex justify-content-center fixed-bottom text-secondary bg-white">
-        <h6 className="footer"> ✉️ johannkirr3110@gmail.com
-        
-          </h6>
-      </div>
+        <div className="fixed-bottom text-secondary bg-black" style={{display: "flex", justifyContent:"right", opacity:0.8}}>
+          <div className="footerButtons" style={{marginBottom: "-20px"}}>
+          <Link href="/datenschutz" className=" paper-btn btn-small text-decoration-none" style={{backgroundColor:"transparent", color:"white"}} >
+            Datenschutz
+          </Link>
+          <Link href="/impressum" className=" paper-btn btn-small text-decoration-none" style={{backgroundColor:"transparent", color:"white"}}>
+            Impressum
+          </Link>
+          </div>
+        </div>
       </div>
     )
   }

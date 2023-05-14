@@ -2,23 +2,45 @@ html,
 
 body {
     background: white;  
-    background-image: url("../public/bilder/cardBilder/hausCover2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 100%; 
 }
 
+nav {
+  background-color: #ffffff;
+  transition: transform 0.4s ease-in-out;
+  transform: translateY(0);
+  z-index: 100;
+ 
+}
+
+nav.hidden {
+  transform: translateY(-150%);
+}
+
+.linkDiv {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin: 10px;
+}
+
+.homeCover {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 1em;
+  padding-bottom: 4em;
+}
+
 .h5 {
   color:black !important; 
 }
 
-.coverText {
-  backdrop-filter: brightness(60%);
-  border-radius: 30px;
-  display: flex;
-  overflow: hidden;
-}
 
 
 .kontaktText {
@@ -26,10 +48,11 @@ body {
   backdrop-filter: brightness(50%);
   border-radius: 30px;
   color: white;
+  margin-top: 40px;
   padding-bottom: 20px;
   padding-top: 20px;
+  
 }
-
 
 h1 {
   backdrop-filter: brightness(80%);
@@ -54,27 +77,26 @@ h1 {
 }
 
 .skizzeBild {
-aspect-ratio: 16/9;
-display:"flex";
-justify-content: center;
-align-items: center;
-padding-right: 8rem;
-padding-left: 8rem;
+  margin-top: 2px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 500px;
 }
 
 .skizzeBildContainer {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   gap: 2rem;
   margin-bottom: 1rem;
-
 }
+
 
 .linkDiv {
   display: flex;
   margin-top: 10px;
-  padding-bottom: 0px;
-  
+  position:sticky;
+  justify-content: center;
 }
 
 .logo2 {
@@ -116,28 +138,39 @@ padding-left: 8rem;
 className="mt-1 col" */
 
 .bilderDiv {
-  display:block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-  height: 900px;
-  text-align: center;
+  background-color: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 50px;
+}
+
+.bautechnikLink {
+  margin-bottom: 15px;
+
 }
 
 .einzelBild {
-display:block;
-margin-bottom: 20px;
-margin-left: 0.3rem;
-float: left;
+ float: left;
+ margin-bottom: 40px;
+ margin-right: 10px;
+ margin-top: -9px;
 }
+
+.bilderMap {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+ }
 
 .bildDecoration {
   text-align: center; 
   display:block;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 85px;
 }
 
 .hollow {
@@ -154,37 +187,89 @@ float: left;
 
 @media only screen and (max-width: 600px) {
 
+  .homeCover {
+    display: flex;
+    flex-direction:column;  
+    align-items:center;
+    margin-top: -1em;
+  }
+
   .bilderDiv {
-    display:block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    height: 900px;
+    background-color: transparent;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 50px;
+  }
+
+  .bautechnikLink {
+    margin-bottom: 15px;
+  }
+
+  .bilderMap {
+   margin-bottom: 60px;
+   display: flex;
+   flex-direction:column;
+   align-items:center;
+  }
+
+  .urlBild {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    position: absolute;
   }
   
   .einzelBild {
-    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 14em;
   }
-
 
 .HausCover {
   display: block;
   text-align: center;
-  margin-left: 0rem;
-  width: 24rem;
+  width: 22rem;
 }
 
-.coverText {
-  backdrop-filter: brightness(60%);
-  border-radius: 10px;
+.skizzeBild {
+  margin-top: 20px;
   display: flex;
-  overflow: hidden;
-  
+  flex-direction:column;
+  align-items:center;
+  width: 400px;
+}
+
+.skizzeBildContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
 }
 
 .link {
-padding: 0;
+padding: 0.3rem;
+}
+
+nav {
+  background-color: #ffffff;
+  transition: transform 0.4s ease-in-out;
+  transform: translateY(0);
+  z-index: 100;
+ 
+}
+
+nav.hidden {
+  transform: translateY(-150%);
+}
+
+.linkDiv {
+  display: flex;
+  align-items: center;
 }
 
 

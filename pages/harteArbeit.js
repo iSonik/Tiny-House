@@ -1,9 +1,10 @@
-import BilderListe from '../komponenten/BilderListe'
+import Bautechnik from '../komponenten/Bautechnik'
 
 export default function Projects() {
+
   return (
     <div>
-      <BilderListe/>
+      <Bautechnik/>
     </div>
   )
 }
