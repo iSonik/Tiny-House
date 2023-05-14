@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "eslint-parser": "^8.0.11",
+    
     "next": "13.0.7",
     "node": "^20.1.0",
     "papercss": "^1.9.1",
