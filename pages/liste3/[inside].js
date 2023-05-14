@@ -1,10 +1,10 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import {useRouter} from 'next/router'
 import jsonInside from '../../jsondb/inside'
-import Link from 'next/link'
-import Image from 'next/image'
 
 
-export default function bilderListe() {
+export default function BilderListe() {
 
     const router = useRouter()
     const {inside} = router.query
@@ -23,11 +23,11 @@ export default function bilderListe() {
                   <h4 style={{color: "black", backgroundColor:"white", width:"auto"}} className="card-title mt-2 border border-dark ">{picture.title}</h4>
                   <p className="card-text border border-dark" style={{backgroundColor: "white", width:"440px", padding:"10px"}}>{picture.beschreibung}</p>
                   <p><Link href="/inside" className="paper-btn btn-secondary text-decoration-none">zurück</Link></p>
-                  <p className="hollow">...<br></br>...<br></br>...<br></br>...</p>      
+         
             </div>
         </div>
     </div>
     </div>
-  )
-  }
+  ) 
+    }
 }

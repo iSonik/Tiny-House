@@ -108,7 +108,7 @@ function Fusszeile() {
             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "footerButtons",
                 style: {
-                    marginBottom: "-5px"
+                    marginBottom: "-15px"
                 },
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
@@ -163,7 +163,7 @@ var custom = __webpack_require__(6333);
 function MyApp({ Component , pageProps  }) {
     return /*#__PURE__*/ jsx_runtime_.jsx(Layout, {
         children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-            ...pageProps
+            pageProps
         })
     });
 }

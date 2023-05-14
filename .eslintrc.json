@@ -18,7 +18,7 @@
       // always put prettier at last
       "prettier"
     ],
-    "requireConfigFile":false,
+
     "globals": {
       "Atomics": "readonly",
       "SharedArrayBuffer": "readonly"
@@ -28,7 +28,13 @@
         "jsx": true // enable linting for jsx files
       },
       "ecmaVersion": 11,
-      "sourceType": "module"
+      "sourceType": "module",
+      "requireConfigFile": false,
+      "babelOptions": {
+        "plugins": [
+          "@babel/plugin-syntax-jsx"
+        ]
+      }
     },
     "settings": {
       "react": {
@@ -42,7 +48,8 @@
       "react/react-in-jsx-scope": "off",
      // NextJs specific fix: allow jsx syntax in js files
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], //should add ".ts" if typescript project
-      "react/display-name": 1
+      "react/display-name": 1,
+      "react/prop-types": "off"
     }
   }
   

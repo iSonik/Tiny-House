@@ -10,15 +10,15 @@ export default function skizze() {
       <div className="skizzeBildContainer">
    
         <div className="skizzeBild">
-          <Image  src={HausSkizze} layout="cover" alt="Card example image"></Image>
+          <Image  src={HausSkizze} layout="cover" alt="Card example image"/>
         </div>
 
         <div className="skizzeBild">
-          <Image src={HausSkizze1}  layout="cover" alt="Card example image"></Image>
+          <Image src={HausSkizze1}  layout="cover" alt="Card example image"/>
         </div>
 
       </div>
-      <p className="hollow">...<br></br>...<br></br>...<br></br>...</p>
+      
     </div>
   )
 }

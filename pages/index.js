@@ -6,13 +6,15 @@ import coverPicture3 from "../public/bilder/coverBilder/hausCover3.jpg";
 
 
 
+
+
 export default function Home() {
   return (
-
+   
     <div className="homeCover">
 
       <div>
-        <Image src={coverPicture1} width={600} height={400} alt="coverPicture1"></Image>
+        <Image src={coverPicture1} width={600} height={400} alt="coverPicture1"/>
       </div>
 
       <div className="HausCover" >
@@ -25,7 +27,7 @@ export default function Home() {
         </h1>
 
         <div style={{ paddingBottom: "10px" }}>
-          <hr className="border border-3 border-white rounded-3"></hr>
+          <hr className="border border-3 border-white rounded-3"/>
         </div>
 
         
@@ -38,7 +40,7 @@ export default function Home() {
         </p>
 
           <div>
-            <Image src={coverPicture4} width={600} height={400} alt="coverPicture3"></Image>
+            <Image src={coverPicture4} width={600} height={400} alt="coverPicture4"/>
           </div>
 
           <p style={{marginTop: "20px"}}>
@@ -51,7 +53,7 @@ export default function Home() {
           </p>
 
           <div>
-            <Image src={coverPicture2} width={600} height={400} alt="coverPicture3"></Image>
+            <Image src={coverPicture2} width={600} height={400} alt="coverPicture2"/>
           </div>
 
           <p style={{marginTop: "20px"}}>  
@@ -64,7 +66,7 @@ export default function Home() {
       </div>
 
       <div>
-        <Image src={coverPicture3} width={600} height={400} alt="coverPicture2"></Image>
+        <Image src={coverPicture3} width={600} height={400} alt="coverPicture3"/>
       </div>
 
       <p style={{marginTop: "20px", textAlign: "center"}}>
@@ -108,5 +110,6 @@ export default function Home() {
 
    
     </div>
+   
   );
 }
