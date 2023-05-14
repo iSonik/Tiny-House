@@ -16,8 +16,7 @@
       "plugin:jsx-a11y/recommended",
       // "plugin:react-hooks/recommended",
       // always put prettier at last
-      "prettier",
-      "next"
+      "prettier"
     ],
 
     "globals": {
