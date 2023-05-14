@@ -5,9 +5,6 @@ import coverPicture4 from "../public/bilder/coverBilder/hausCover4.jpg";
 import coverPicture3 from "../public/bilder/coverBilder/hausCover3.jpg";
 
 
-
-
-
 export default function Home() {
   return (
    
