@@ -14,7 +14,8 @@
       "plugin:import/errors",
       "plugin:import/warnings",
       "plugin:jsx-a11y/recommended",
-      // "plugin:react-hooks/recommended",
+      "plugin:react-hooks/recommended",
+      
       // always put prettier at last
       "prettier"
     ],
@@ -42,13 +43,11 @@
       }
      
     },
-    "plugins": ["react", "react-hooks"],
+    "plugins": ["react", "react-hooks", "compat"],
     "rules": {
       // NextJs specific fix: suppress errors for missing 'import React' in files for nextjs
       "react/react-in-jsx-scope": "off",
-      "no-unsupported-browser-features": [2, {
-        "ignore": ["css-appearance"]
-      }],
+      
      // NextJs specific fix: allow jsx syntax in js files
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], //should add ".ts" if typescript project
       "react/display-name": 1,
