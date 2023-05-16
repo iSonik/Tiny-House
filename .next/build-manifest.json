@@ -30,40 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/datenschutz": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/datenschutz.js"
-    ],
-    "/harteArbeit": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/harteArbeit.js"
-    ],
-    "/impressum": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/impressum.js"
-    ],
-    "/liste/[url]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/liste/[url].js"
-    ],
-    "/material": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/material.js"
-    ],
     "/skizze": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/skizze.js"
-    ],
-    "/unterboden": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/unterboden.js"
     ]
   },
   "ampFirstPages": []

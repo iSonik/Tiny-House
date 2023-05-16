@@ -19,7 +19,7 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
     "react-photo-album": "^2.0.0",
-    "sass": "^1.57.1",
+    "sass": "^1.62.1",
     "sharp": "^0.31.3",
     "stylelint": "^15.6.1",
     "stylelint-no-unsupported-browser-features": "^6.1.0",

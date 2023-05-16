@@ -15,7 +15,7 @@
       "plugin:import/warnings",
       "plugin:jsx-a11y/recommended",
       "plugin:react-hooks/recommended",
-      
+      "plugin:next/recommended",
       // always put prettier at last
       "prettier"
     ],
@@ -43,7 +43,7 @@
       }
      
     },
-    "plugins": ["react", "react-hooks", "compat"],
+    "plugins": ["react", "react-hooks", "/Users/johannkirr/Desktop/Dev/Tiny-House/node_modules/eslint-plugin-next"],
     "rules": {
       // NextJs specific fix: suppress errors for missing 'import React' in files for nextjs
       "react/react-in-jsx-scope": "off",

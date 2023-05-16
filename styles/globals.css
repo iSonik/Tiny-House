@@ -125,10 +125,6 @@ h1 {
   margin-right: 10rem;
 }
 
-.link {
-  padding:20px;
-  text-align: center;
-}
 
 :hover.link {
   color: grey;
@@ -251,16 +247,14 @@ className="mt-1 col" */
   margin-bottom: 1rem;
 }
 
-.link {
-padding: 0.3rem;
-}
 
 nav {
   background-color: #ffffff;
   transition: transform 0.4s ease-in-out;
   transform: translateY(0);
   z-index: 100;
- 
+  display: flex;
+  align-items: center;
 }
 
 nav.hidden {
@@ -270,7 +264,12 @@ nav.hidden {
 .linkDiv {
   display: flex;
   align-items: center;
+  margin-left: 30px;
 }
 
+.footer {
+  padding-top: 7px;
+  margin-bottom: 10px;
+}
 
 }

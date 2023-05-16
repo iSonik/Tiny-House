@@ -18,7 +18,7 @@ export default function Navigation() {
   return (
     <nav className={`sticky-top ${hidden ? 'hidden' : ''}`} style={{ backgroundColor:"transparent", justifyContent:"center"}}>
      
-        <div className="linkDiv"style={{ paddingTop: '0px', marginTop:"-1px", paddingBottom:'10px' }}>
+        <div className="linkDiv">
           <div className="link">
             <Link href="/" className="paper-btn btn-primary text-decoration-none text-black">
               Haus
