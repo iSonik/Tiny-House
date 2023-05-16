@@ -1,8 +1,11 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/unterboden": "pages/unterboden.js",
+  "/_document": "pages/_document.js",
+  "/liste/[url]": "pages/liste/[url].js",
+  "/harteArbeit": "pages/harteArbeit.js",
+  "/material": "pages/material.js",
   "/skizze": "pages/skizze.js",
+  "/unterboden": "pages/unterboden.js",
   "/": "pages/index.js"
 }
