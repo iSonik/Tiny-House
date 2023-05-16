@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/skizze.js"
+    ],
+    "/unterboden": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/unterboden.js"
     ]
   },
   "ampFirstPages": []

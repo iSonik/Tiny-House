@@ -8,12 +8,8 @@ export default function datenschutz() {
         </h3>
 
         <p>
-          Beckmanngasse 1 <br/>
-          1140 Wien <br/>
-
           T: +43 670/6032533 <br/>
           E: johannkirr3110@gmail.com <br/>
-        
         </p>
 
       Der Schutz deiner persönlichen Daten ist mir ein besonderes Anliegen. 

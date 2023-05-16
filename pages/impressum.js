@@ -9,12 +9,8 @@ export default function impressum() {
         </h3>
 
         <p>
-          Beckmanngasse 1 <br/>
-          1140 Wien <br/>
-
           T: +43 670/6032533 <br/>
           E: johannkirr3110@gmail.com <br/>
-        
         </p>
 
       <h3 style={{marginTop:"30px", color:"lightblue"}}> Fotografie: </h3>
